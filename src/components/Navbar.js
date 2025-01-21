@@ -1,15 +1,12 @@
-import React from "react";
+// src/components/Navbar.js
+import React from 'react';
 
 function Navbar() {
   return (
     <nav>
-      <ul>
-        <li>Home</li>
-        <li>About</li>
-        <li>Contact</li>
-      </ul>
+      <a href="#home">I'm a link</a>
     </nav>
   );
 }
 
-export default Navbar;
+export default Navbar;  
